@@ -1,3 +1,6 @@
+#Software para el area cientifica
+#@author Tomas Vargas
+
 print("## CONVERSION DE NUMEROS ##","\n")
 print("1) CONVERSION DE NUMERO EN BASE 10 A DISTINTAS BASES (2, 8, 16)")
 print("2) CONVERSION DE NUMEROS EN BASES DISTINTAS A NUMERO EN BASE 10")
