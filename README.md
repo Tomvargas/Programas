@@ -3,6 +3,7 @@ En este repositorio vas a encontrar programas de diferentes lenguajes de program
 
 ## LENGUAJES
 * Python
+* C++
 
 <hr>
 Dame una estrellita y sigueme para que estes actualizado.
