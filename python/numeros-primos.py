@@ -1,7 +1,9 @@
 """
 ingresar un numero y determinar si es primo o no, el programa termina cuando no
 se desee ingresar mas, se debe mostrar cuantos numeros primos fueron ingresados
-y la suma de los numeros primos
+y la suma de los numeros primos.
+
+@author Tomas Vargas
 """
 opcion=1
 contador=0

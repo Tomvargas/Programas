@@ -5,6 +5,8 @@
 	-> Ingresar las notas del estudiante.
 	-> Obtener el promedio y mostrar mensaje de estado del estudiante.
 	-> Mostrar el mejor estudiante y el peor de la clase.
+
+	@author tomvargas
 *-----------------------------------------------------------------------------*/
 #include <iostream>
 #include <conio.h>

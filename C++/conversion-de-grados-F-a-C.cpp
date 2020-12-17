@@ -1,6 +1,8 @@
 #include <iostream>
 #include <conio.h>
 
+//@author tomvargas
+
 using namespace std;
 
 main(){

@@ -1,6 +1,8 @@
 #include<iostream.h>
 #include<stdio.h>
 
+//@author tomvargas
+
 using namespace std;
 
 void talent();
