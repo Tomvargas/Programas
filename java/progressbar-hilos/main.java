@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author User
+ * @author Tomvargas
  */
 
 public class main extends javax.swing.JFrame {
