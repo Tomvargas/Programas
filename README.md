@@ -37,6 +37,8 @@ En este repositorio vas a encontrar programas de diferentes lenguajes de program
 ### Java
   * Matrices
     > Ingresa una matriz, imprime solo los bordes, imprime solo los numeros impares de la matriz, Imprime el promedio de la matriz solo bordes generada.
+* Progressbar hilos
+    > Muestra una interfaz con dos procesos diferentes para llenar el jProgressBar, con hilos y sin hilos.
 
 <hr>
 Dame una estrellita y sigueme para que estes actualizado.
