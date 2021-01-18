@@ -11,6 +11,8 @@ En este repositorio vas a encontrar programas de diferentes lenguajes de program
     > Contierte los grados ingresados en F° a C°.
   * Juego test de personalidad
     > Serie de preguntas para calcular un puntaje y mostrar un mensaje de su personalidad en base a las preguntas contestadas.
+  * Ejemplo de clases
+    > Crea una clase con los datos de nombre, dirección y profesión, luego lo muestra por pantalla.
    
 ### Python
   * Calcular derivadas simples
