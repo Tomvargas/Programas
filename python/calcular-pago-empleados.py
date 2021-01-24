@@ -1,7 +1,7 @@
-import io
-import os
+import io #importar la librería para trabajar con ficheros
+import os #Módulo os para acceder funcionalidades del sistema operativo
 
-#guarda los datos linea por linea
+#--------------------------------------------------------------------------- esta función guarda los datos linea por linea
 def save(data):
     f = open("Vendedores.bin", "a")
     for i in data:
@@ -9,21 +9,22 @@ def save(data):
         f.write("\n")
     f.close()
 
-#lee los datos sin el salto de linea con la funcion rstrip
+#---------------------------------------------------------------------------lee los datos del fichero
 def read():
     lista=[]
-    f = open("Vendedores.bin", "r")
-    for lines in f.readlines():
-        lista.append(lines.rstrip('\n'))
-    f.close()
-
+    f = open("Vendedores.bin", "r") # abre el archivo
+    for lines in f.readlines(): #sentencia para recorrer las lineas del archivo 
+        lista.append(lines.rstrip('\n')) # agrega al final de una lista el valor de la linea del fichero sin el salto de linea con la funcion rstrip
+    f.close() # cerrar el archivo
+    
+    #regresa la lista de valores obtenidos del fichero
     return lista
 
-#valida que el dato contenga solamente digitos
+#-------------------------------------------------------------------------- valida que el dato contenga solamente digitos
 def onlyn(var):
     return var.isdigit()
 
-#registra los vendedores y los guarda en el fichero
+#-------------------------------------------------------------------------- registra los vendedores y los guarda en el fichero
 def R_vend():
     v=1
     data=[]
@@ -75,6 +76,7 @@ def R_vend():
         if op == "0":
             v=0
 
+#------------------------------------------------------------------------------ devuelve el sueldo segun un parámetro recivido
 def sueldo(s):
     if s == 1:
         S=400.0
@@ -86,6 +88,7 @@ def sueldo(s):
         S=0
     return S
 
+#------------------------------------------------------------------------------- devuelve un valor booleano false o true si el empleado merece un bono
 def bono(valu):
     data=read()
     mon=[]  
@@ -97,7 +100,7 @@ def bono(valu):
     else:
         return False
 
-# Lee los registros y calcula el pago corespondiente a cada vendedor
+#------------------------------------------------------------------------------ Lee los registros y calcula el pago corespondiente a cada vendedor
 def pago():
     data=read()
     pagos=[]
@@ -125,6 +128,7 @@ def pago():
     print("Total por pagar: $", tot)
     print("===============================")
 
+#------------------------------------------------------------------------------------ bloque de código principal
 v=1
 while(v==1):
     os.system("cls")
