@@ -37,12 +37,15 @@ En este repositorio vas a encontrar programas de diferentes lenguajes de program
     > Gestiona inventario de libros.
     
 ### Java
-  * Matrices
+
+* Matrices
     > Ingresa una matriz, imprime solo los bordes, imprime solo los numeros impares de la matriz, Imprime el promedio de la matriz solo bordes generada.
 * Progressbar hilos
     > Muestra una interfaz con dos procesos diferentes para llenar el jProgressBar, con hilos y sin hilos.
 * Cuentas bancarias
     > Programa en consola que registra un cliente y le asigna una cuenta corriente o de ahorro, realiza depositos, retiros y consultas.
+* Restaurante
+    > Programa que crea un objeto a partir de la clase cliente y su constructor, crea un objeto, lee y muestra sus atributos.
 
 <hr>
 Dame una estrellita y sigueme para que estes actualizado.
