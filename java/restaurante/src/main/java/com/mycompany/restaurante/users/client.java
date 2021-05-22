@@ -1,12 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.restaurante.users;
 
 /**
- *
  * @author tomvargas
  */
 public class client
@@ -17,6 +11,7 @@ public class client
     private int precio;
     private double pago;
     
+    //declare constructor of class
     public client (String nombre, String pedido, boolean pagoEfectivo, int precio, double pago){
         this.nombre=nombre;
         this.pedido=pedido;
@@ -25,9 +20,10 @@ public class client
         this.pago=pago;
     }
     
+    
     public double descuentocliente(){
         double desc=0;
-        if (pagoEfectivo){
+        if (pagoEfectivo){//---------------------------------------------------- if true or false
             desc=precio-precio*0.10;
             pago = precio-desc;
             
