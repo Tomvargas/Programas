@@ -5,6 +5,8 @@
  */
 package com.mycompany.midespensa.screens;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author User
@@ -59,6 +61,11 @@ public class main extends javax.swing.JFrame {
         });
 
         txtuser.setToolTipText("");
+        txtuser.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtuserActionPerformed(evt);
+            }
+        });
 
         txtpass.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -134,15 +141,36 @@ public class main extends javax.swing.JFrame {
 
     private void btnloginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnloginActionPerformed
         // TODO add your handling code here:
+        String UserName = txtuser.getText().trim();
+        String UserPass = txtpass.getText().trim();
+        
+        //----------------------------------------------------------------------code for get DB data (user - pass)
+        
+        if (UserName == "user" && UserPass == "pass"){
+            this.setVisible(false);
+            new home().setVisible(true);
+        }
+        else{
+            JOptionPane.showMessageDialog(null,"Usuario o contraseña incorrecta");
+            new home().setVisible(true);
+        }
     }//GEN-LAST:event_btnloginActionPerformed
 
     private void btnregisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnregisterActionPerformed
         // TODO add your handling code here:
+        String UserName = txtuser.getText().trim();
+        String UserPass = txtpass.getText().trim();
+        
+        //---------------------------------------------------------------------- code for save data in DB
     }//GEN-LAST:event_btnregisterActionPerformed
 
     private void txtpassActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtpassActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtpassActionPerformed
+
+    private void txtuserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtuserActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtuserActionPerformed
 
     /**
      * @param args the command line arguments

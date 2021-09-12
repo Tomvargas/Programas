@@ -5,6 +5,8 @@
  */
 package com.mycompany.midespensa.screens;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author User
@@ -16,6 +18,7 @@ public class compra extends javax.swing.JFrame {
      */
     public compra() {
         initComponents();
+        this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
     }
 
     /**

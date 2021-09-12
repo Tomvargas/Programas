@@ -5,6 +5,8 @@
  */
 package com.mycompany.midespensa.screens;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author User
@@ -16,7 +18,8 @@ public class addprod extends javax.swing.JFrame {
      */
     public addprod() {
         initComponents();
-    }
+        this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+    }   
 
     /**
      * This method is called from within the constructor to initialize the form.

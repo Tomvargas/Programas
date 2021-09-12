@@ -5,6 +5,8 @@
  */
 package com.mycompany.midespensa.screens;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author User
@@ -16,6 +18,7 @@ public class addclient extends javax.swing.JFrame {
      */
     public addclient() {
         initComponents();
+        this.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
     }
 
     /**

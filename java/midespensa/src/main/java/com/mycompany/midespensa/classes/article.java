@@ -9,7 +9,7 @@ package com.mycompany.midespensa.classes;
  *
  * @author User
  */
-public class article extends proveedor {
+public class article {
     private int Id;
     private String Desc;
     private float Pvp;
@@ -17,9 +17,9 @@ public class article extends proveedor {
     private int Stock;
     private String Category;
     private String DateIn;
+    private String CodeProv;
 
-    public article(int Id, String Desc, float Pvp, float Price, int Stock, String Category, String DateIn, String NameCommerce, String CodProd, String NumDoc, String TipeDoc, String Name, String Surname, String CodCity, String Dir, String Phone) {
-        super(NameCommerce, CodProd, NumDoc, TipeDoc, Name, Surname, CodCity, Dir, Phone);
+    public article(int Id, String Desc, float Pvp, float Price, int Stock, String Category, String DateIn, String CodeProv) {
         this.Id = Id;
         this.Desc = Desc;
         this.Pvp = Pvp;
@@ -27,6 +27,7 @@ public class article extends proveedor {
         this.Stock = Stock;
         this.Category = Category;
         this.DateIn = DateIn;
+        this.CodeProv = CodeProv;
     }
 
     public int getId() {
@@ -83,6 +84,14 @@ public class article extends proveedor {
 
     public void setDateIn(String DateIn) {
         this.DateIn = DateIn;
+    }
+
+    public String getCodeProv() {
+        return CodeProv;
+    }
+
+    public void setCodeProv(String CodeProv) {
+        this.CodeProv = CodeProv;
     }
     
     
