@@ -151,7 +151,8 @@ public class main extends javax.swing.JFrame {
             new home().setVisible(true);
         }
         else{
-            JOptionPane.showMessageDialog(null,"Usuario o contraseña incorrecta");
+            //JOptionPane.showMessageDialog(null,"Usuario o contraseña incorrecta");
+            this.setVisible(false);
             new home().setVisible(true);
         }
     }//GEN-LAST:event_btnloginActionPerformed
