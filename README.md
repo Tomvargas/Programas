@@ -5,6 +5,7 @@ En este repositorio vas a encontrar programas de diferentes lenguajes de program
 ### C++   
 ### Python
 ### Java
+### JavaScript
 
 <hr>
 Dame una estrellita y sigueme para que estes actualizado.
