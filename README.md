@@ -1,5 +1,6 @@
 # PROGRAMAS DE EJERCICIOS PRÁCTICOS
 En este repositorio vas a encontrar programas de diferentes lenguajes de programación que te pueden servir para practicar o estudiar, poco a poco iré subiendo más contenido y comentando ls lineas para que entiendas mucho mejor.
+Si te gustaría aportar una idea de contenido para este repositorio te invito a conversar informalmente del tema en las [discusiones de este proyecto](https://github.com/Tomvargas/Programas/discussions/3) 
 
 ## PROGRAMAS
 ### <img src="https://icon-icons.com/icons2/2415/PNG/48/cplusplus_original_logo_icon_146581.png" width="15px"/> C++   
