@@ -1,4 +1,4 @@
-# PROGRAMAS DE EJERCICIOS PRÁCTICOS
+# PROGRAMAS DE PRÁCTICA
 En este repositorio vas a encontrar programas de diferentes lenguajes de programación que te pueden servir para practicar o estudiar, poco a poco iré subiendo más contenido y comentando ls lineas para que entiendas mucho mejor.
 Si te gustaría aportar una idea de contenido para este repositorio te invito a conversar informalmente del tema en las [discusiones de este proyecto](https://github.com/Tomvargas/Programas/discussions/3) 
 
