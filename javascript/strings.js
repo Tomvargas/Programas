@@ -69,4 +69,28 @@ function buscar(str1, str2){
 console.log(buscar(str1, str2));
 //-------------------------------------------------------------------------------
 
+// --------------------------------------------------------- buscar en una cadena
+function encontrar(str1, str2){
+    
+    // mensaje por defecto
+    let msj = `No hay resultados`;
+
+    //indexOf devuelve la posición de la primera ocurrencia de la cadena buscada, devuelve -1 si no se encuentra
+    let result = str1.indexOf(str2);
+
+    //si result es diferente de -1 entonces encntró la cadena mundo en str1
+    if(result != -1){
+        // el mensaje se modifica
+        msj = `Se encontró la cadena mundo en la variable srt1, posición: ${result}`;
+    }
+
+    // regresa el mensaje
+    return msj;
+}
+
+// el resultado es: 
+// Se encontró la cadena mundo y world en las variables srt1 y str2 respectivamente.
+console.log(encontrar(str1, "mundo"));
+//-------------------------------------------------------------------------------
+
 // --------------------------------------------------------- proximamente más ...
